@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
+/**
+ * 发生修改001
+ */
 @Controller //加普通控制器注解，返回模板视图
 public class UserController {
     @Autowired
