@@ -29,6 +29,12 @@ public class UserController {
         //封装全部用户数据到数据模型
         model.addAttribute("page",all);
 
+		//小刘修改代码001
+
+		if(all.size()>0){
+           System.out.println("这是小刘修改的代码");
+		}
+
         //跳转到显示全部用户数据的模板
         return "user/list";
     }
