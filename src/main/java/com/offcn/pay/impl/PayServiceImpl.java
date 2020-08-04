@@ -10,6 +10,9 @@ public class PayServiceImpl implements PayService {
         //小张修改代码
         for (int i = 0; i <100 ; i++) {
             System.out.printf("预下单操作代码");
+
+			//小丽修改代码
+            System.out.printf("小丽要做：：预下单操作代码");
         }
 
     }
@@ -20,6 +23,9 @@ public class PayServiceImpl implements PayService {
         if(out_trade_no!=null) {
             System.out.printf("查询交易状态代码");
         }
+
+		//小丽修改代码
+            System.out.printf("小丽要做：：查询订单状态操作代码");
         return null;
     }
 }
