@@ -34,6 +34,12 @@ public class UserController {
             System.out.printf("小张循环代码");
         }
 
+		//小刘修改代码001
+
+		if(all.size()>0){
+           System.out.println("这是小刘修改的代码");
+		}
+
         //跳转到显示全部用户数据的模板
         return "user/list";
     }
