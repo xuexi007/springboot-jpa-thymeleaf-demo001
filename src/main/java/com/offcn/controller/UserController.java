@@ -29,6 +29,11 @@ public class UserController {
         //封装全部用户数据到数据模型
         model.addAttribute("page",all);
 
+        //小张修改代码：001
+        for (int i = 0; i <10 ; i++) {
+            System.out.printf("小张循环代码");
+        }
+
         //跳转到显示全部用户数据的模板
         return "user/list";
     }
